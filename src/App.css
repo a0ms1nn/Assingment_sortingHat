@@ -1,0 +1,105 @@
+#root {
+  background-image: url('/public/picture/3.png');
+  margin: 0;
+  padding: 5%;
+  text-align: center;
+}
+.Intro{
+  width: 700px;
+  height: fit-content;
+}
+.textbox{
+  background-color: rgb(240, 240, 234);
+  width: 500px; /* กำหนดความกว้าง */
+  height: 20px; /* กำหนดความสูง */
+  padding: 10px; /* กำหนดระยะห่างภายใน */
+  font-size: 16px; /* กำหนดขนาดตัวอักษร */
+  border: 1px solid #826363; /* กำหนดเส้นขอบ */
+  border-radius: 5px; /* กำหนดรูปร่างของมุม */
+  outline: none; /* ลบเส้นโค้งเมื่อถูกเลือก */
+}
+.textbox:focus {
+  border-color: #000101; /* เปลี่ยนสีเส้นขอบเมื่อได้รับการเลือก */
+}
+
+.text {
+	font-family: "Yanone Kaffeesatz";
+	font-size: 50px;
+	display: flex;
+	position: absolute;
+	bottom: 20vh;
+	left: 50%;
+	transform: translateX(-50%);
+	user-select: none;
+
+	.wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+		.letter {
+			transition: ease-out 1s;
+			transform: translateY(40%);
+		}
+		.shadow {
+			transform: scale(1, -1);
+			color: #999;
+			transition: ease-in 5s, ease-out 5s;
+		}
+		&:hover {
+			.letter {
+				transform: translateY(-200%);
+			}
+			.shadow {
+				opacity: 0;
+				transform: translateY(200%);
+			}
+		}
+	}
+}
+
+.welcome{
+  font-family: "Yanone Kaffeesatz";
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+.enter{
+	font-weight: bold;
+}
+
+.countpeople{
+  font-family: "Yanone Kaffeesatz";
+  font-size: 20px;
+  font-weight: bold;
+}
+.submit{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-right: 30px;
+	padding: 10px 28px;
+	background-color: rgb(255, 255, 255);
+    color: rgb(76, 81, 85);
+}
+.clear{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding: 10px 30px;
+	background-color:rgb(76, 81, 85);
+	color: rgb(255, 255, 255);
+}
+.sum{
+	font-weight: bold;
+	font-size: large;
+	color:rgb(0, 0, 0);
+}
+.sumth{
+	font-size: medium;
+	color: rgb(33, 31, 31);
+}
+.name{
+	font-size: large;
+	color:rgb(0, 0, 0);
+}
+@media only screen and (max-width: 600px) {
+	.background-example {
+	  padding: 10px; /* เปลี่ยนขนาดของ padding */
+	}
+}
