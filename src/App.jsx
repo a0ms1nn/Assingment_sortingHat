@@ -116,7 +116,7 @@ const HomeAllocation = () => {
       <br></br>
       <br></br>
       <h9 className='welcome'> Welcome to Sorting into the 4 King House </h9><br></br>
-      <div className='enter'>Please enter all names to begin sorting. khuiihkhj</div>
+      <div className='enter'>Please enter all names to begin sorting.</div>
       <div>(ชื่อของแต่ละคนจะถูกคั่นด้วย /)</div>
       <br></br>
       <input className='textbox' type="text" value={inputText} onChange={handleInputChange} />
