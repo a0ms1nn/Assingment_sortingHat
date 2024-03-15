@@ -1,12 +1,15 @@
 #root {
-  background-image: url('/public/picture/3.png');
+  background-image: url('/src/picture/3.png');
   margin: 0;
-  padding: 5%;
+  padding: 20%;
   text-align: center;
+  margin: auto;
+  padding: auto;
 }
 .Intro{
   width: 700px;
   height: fit-content;
+  text-align: center;
 }
 .textbox{
   background-color: rgb(240, 240, 234);
@@ -27,6 +30,7 @@
 	font-size: 50px;
 	display: flex;
 	position: absolute;
+	padding: 250px;
 	bottom: 20vh;
 	left: 50%;
 	transform: translateX(-50%);

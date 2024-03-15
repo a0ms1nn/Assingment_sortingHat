@@ -58,7 +58,8 @@ const HomeAllocation = () => {
 
   return (
     <div>
-      <img className='Intro' src='/public/picture/111.png' alt='4kingXharrypotter' />
+      <img className='Intro' src='/src/picture/111.PNG' alt='4kingXharrypotter' />
+      
       <br></br>
 
       <div class="overlay"></div>
@@ -115,6 +116,10 @@ const HomeAllocation = () => {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+    
       <h9 className='welcome'> Welcome to Sorting into the 4 King House </h9><br></br>
       <div className='enter'>Please enter all names to begin sorting.</div>
       <div>(ชื่อของแต่ละคนจะถูกคั่นด้วย /)</div>
