@@ -1,33 +1,27 @@
-# Project Title
+# Assingment_sortingHat
 
-One Paragraph of project description goes here
+Project นี้เป็นการทำเว็บสุ่มสถาบัน 4 King ได้แก่ กนก อิรทร ประชาชื่น บรุณพนธ์ โดยจะรับชื่อของคนแต่ละคนเข้ามาผ่าน กล่องข้อความ แต่ละชื่อต้องคั่นด้วย / ใช้ React framwork ในการทำ Project นี้ขึ้นมา 
 
-## Getting Started
+## Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+เพื่อรับสำเนาของโปรเจคและเริ่มต้นทำงานบนเครื่องทดสอบของคุณเพื่อการพัฒนาและทดสอบ ทำตามขั้นตอนดังต่อไปนี้:
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
+### 1.Clone the Repository: clone git ลงใน terminal หรือ command ภายในเครื่อ'
 ```
-Give examples
+https://github.com/a0ms1nn/Assingment_sortingHat.git
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+### 2.Navigate to the Project Directory
 ```
-Give the example
+cd Assingment_sortingHat
 ```
 
-And repeat
-
+### 3.Install Dependencies: เปิด terminal แล้วสามารถ run ตามคำสั่งด้านล่างได้เลย
 ```
-until finished
+npm install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+### 4.Start the Development Server:
+```
+npm run dev
+```
