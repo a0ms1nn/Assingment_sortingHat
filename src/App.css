@@ -1,36 +1,45 @@
 #root {
   background-image: url('/src/picture/3.png');
-  margin: 0;
-  padding: 20%;
+  margin: 0; 
+  /* padding: 20%;  */
+  width: 100%;
+  height: 100%;
   text-align: center;
   margin: auto;
   padding: auto;
+  background-position: center;
+  background-size: cover;
+  /* position: fixed; */
 }
+
+
+
 .Intro{
   width: 700px;
   height: fit-content;
   text-align: center;
 }
-.textbox{
+ .textbox{
   background-color: rgb(240, 240, 234);
   width: 500px; /* กำหนดความกว้าง */
   height: 20px; /* กำหนดความสูง */
-  padding: 10px; /* กำหนดระยะห่างภายใน */
+  padding: 10px; /* กำหนดระยะห่างภายใน*/
   font-size: 16px; /* กำหนดขนาดตัวอักษร */
   border: 1px solid #826363; /* กำหนดเส้นขอบ */
   border-radius: 5px; /* กำหนดรูปร่างของมุม */
   outline: none; /* ลบเส้นโค้งเมื่อถูกเลือก */
 }
-.textbox:focus {
-  border-color: #000101; /* เปลี่ยนสีเส้นขอบเมื่อได้รับการเลือก */
-}
+
+ .textbox:focus { 
+  border-color: #000101;/* เปลี่ยนสีเส้นขอบเมื่อได้รับการเลือก*/
+} 
 
 .text {
 	font-family: "Yanone Kaffeesatz";
 	font-size: 50px;
 	display: flex;
 	position: absolute;
-	padding: 250px;
+	padding: 170px;
 	bottom: 20vh;
 	left: 50%;
 	transform: translateX(-50%);
@@ -65,7 +74,6 @@
   font-family: "Yanone Kaffeesatz";
   font-size: 25px;
   font-weight: bold;
-  
 }
 .enter{
 	font-weight: bold;
