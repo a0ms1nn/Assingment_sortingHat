@@ -145,6 +145,7 @@ const HomeAllocation = () => {
           ))}
         </div>
       )}
+      <img className='end' src='src\picture\IMG_0283.PNG' alt='4king' />
     </div>
   );
 };
